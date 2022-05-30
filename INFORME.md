@@ -7,6 +7,7 @@ En esta pràctica he entendido el ISH del procesador y como mediante el hardware
 
 
 Explicación y comentario del código:
+```
 #include <Arduino.h>
 
 struct Button { //struct del pulsador
@@ -43,5 +44,5 @@ void loop() {
      Serial.println("Interrupt Detached!");
   }
 }  
-
+```
 //observar el video para enteder las salidas
