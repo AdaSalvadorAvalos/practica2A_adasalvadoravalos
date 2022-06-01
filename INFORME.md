@@ -1,12 +1,14 @@
-MATERIALES
-· ESP32
-· Pulsador
+# Práctica 2: ejercicio A
 
-Objetivo: 
-En esta pràctica he entendido el ISH del procesador y como mediante el hardware, es decir, aprentado los pulsadores podemos realizar una interrupción.
+## MATERIALES
+- ESP32
+- Pulsador
+
+## Presentación: 
+En esta práctica he entendido el ISH del procesador y como mediante el hardware, es decir, aprentado los pulsadores podemos realizar una interrupción.
 
 
-Explicación y comentario del código:
+## Explicación y comentario del código:
 ```
 #include <Arduino.h>
 
@@ -45,4 +47,4 @@ void loop() {
   }
 }  
 ```
-//observar el video para enteder las salidas
+Observar el vídeo para entender las salidas
