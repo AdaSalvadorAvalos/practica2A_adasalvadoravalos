@@ -8,7 +8,7 @@
 En esta práctica he entendido el ISH del procesador y como mediante el hardware, es decir, aprentado los pulsadores podemos realizar una interrupción.
 
 
-## Explicación y comentario del código:
+## Explicación del código (con comentarios que explican el funcionamiento línea a línea):
 ```
 #include <Arduino.h>
 
