@@ -24,7 +24,7 @@ void loop() {
       button1.pressed = false;
   }
 
-  //Detach Interrupt after 1 Minute
+
   static uint32_t lastMillis = 0;
   if (millis() - lastMillis > 60000) {
     lastMillis = millis();
