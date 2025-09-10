@@ -5,7 +5,7 @@
 - Push Button
 
 ## Introduction
-In this practice, I learned about the processor's ISR (Interrupt Service Routine) and how, using hardware—specifically by pressing buttons—we can trigger an interrupt.
+In this practice, for my Digital Processors course, I learned about the processor's ISR (Interrupt Service Routine) and how, using hardware—specifically by pressing buttons—we can trigger an interrupt.
 
 ## Code Explanation (with comments explaining line by line):
 ```cpp
@@ -84,9 +84,9 @@ void loop() {
 - ESP32
 - Pulsador
 
-## Presentación
+## Introducción
+En esta práctica, para mi curso de Procesadores Digitales, aprendí sobre el ISR (Rutina de Servicio de Interrupción) del procesador y cómo, utilizando hardware—específicamente al presionar botones—podemos activar una interrupción.
 
-En esta práctica he entendido el ISR del procesador y cómo, mediante el hardware, es decir, apretando los pulsadores, podemos realizar una interrupción.
 
 ## Explicación del código (con comentarios línea a línea):
 ```cpp
