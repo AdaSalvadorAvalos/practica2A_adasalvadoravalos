@@ -5,9 +5,9 @@
 - Push Button
 
 ## Introduction
-In this practice, for my Digital Processors course, I learned about the processor's ISR (Interrupt Service Routine) and how, using hardware—specifically by pressing buttons—we can trigger an interrupt.
+In this practice, for the Digital Processors course, I learned about the processor's ISR (Interrupt Service Routine) and how, using hardware—specifically by pressing buttons—we can trigger an interrupt.
 
-## Code Explanation (with comments explaining line by line):
+## Code Explanation (with line-by-line comments):
 ```cpp
 #include <Arduino.h>
 
@@ -78,6 +78,11 @@ void loop() {
    - Press the button and see the number of presses printed
    - After one minute, the interrupt is detached automatically
 
+### Resources
+- **Video Demonstration in Spanish:** [Watch video](assets/practica2avideo.mp4)
+- **ESP32 Documentation:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)   
+- **Arduino attachInterrupt Reference:** [Arduino attachInterrupt](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/)  
+- **ESP32 Interrupts Documentation:** [ESP32 Interrupts](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/intr_alloc.html)  
 
 # Práctica 2-A: Interrupción con Pulsador en ESP32 (Versión en Español)
 ## Materiales
@@ -155,4 +160,7 @@ void loop() {
    - Después de un minuto, la interrupción se desactiva automáticamente
 
 ### Recursos
-- Video explicativo en español sobre las conexiones del pulsador: [Ver video](assets/practica2avideo.mp4)
+- **Video demostrativo en español:** [Ver video](assets/practica2avideo.mp4)
+- **Documentación del ESP32:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html) 
+- **Referencia de attachInterrupt en Arduino:** [Arduino attachInterrupt](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/)  
+- **Documentación de interrupciones en ESP32:** [ESP32 Interrupts](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/intr_alloc.html)  
