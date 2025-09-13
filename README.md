@@ -5,7 +5,7 @@
 - Push Button
 
 ## Introduction
-In this practice, for the Digital Processors course, I learned about the processor's ISR (Interrupt Service Routine) and how, using hardware—specifically by pressing buttons—we can trigger an interrupt.
+In this practice, for the Digital Processors course, we learn about the processor's ISR (Interrupt Service Routine) and how, using hardware—specifically by pressing buttons—we can trigger an interrupt.
 
 ## Code Explanation (with line-by-line comments):
 ```cpp
@@ -90,7 +90,7 @@ void loop() {
 - Pulsador
 
 ## Introducción
-En esta práctica, para mi curso de Procesadores Digitales, aprendí sobre el ISR (Rutina de Servicio de Interrupción) del procesador y cómo, utilizando hardware—específicamente al presionar botones—podemos activar una interrupción.
+En esta práctica, para el curso de Procesadores Digitales, aprendemos sobre el ISR (Rutina de Servicio de Interrupción) del procesador y cómo, utilizando hardware—específicamente al presionar botones—podemos activar una interrupción.
 
 
 ## Explicación del código (con comentarios línea a línea):
@@ -164,3 +164,4 @@ void loop() {
 - **Documentación del ESP32:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html) 
 - **Referencia de attachInterrupt en Arduino:** [Arduino attachInterrupt](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/)  
 - **Documentación de interrupciones en ESP32:** [ESP32 Interrupts](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/intr_alloc.html)  
+
